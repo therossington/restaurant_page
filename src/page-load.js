@@ -1,3 +1,5 @@
+import Image from './picture_restaurant.jpg';
+
 const getContainers = (() => {
     const content = document.querySelector('#content');
     const headerContainer = document.createElement('div');
@@ -24,6 +26,7 @@ const getHeader = (() => {
     let header = document.createElement('h1');
     getContainers.headerContainer.appendChild(header);
     header.classList.add('header');
+    header.textContent = 'The restaurant page!';
 
     return {
         header
@@ -31,13 +34,21 @@ const getHeader = (() => {
 })();
 
 const getImage = (() => {
-    image = document.createElement('img');
+    let image = document.createElement('img');
     getContainers.imageContainer.appendChild(image);
+    image.classList.add('main-image');
+    image.src = Image;
 })();
 
 const getText = (() => {
-    text = document.createElement('p');
+    let text = document.createElement('p');
     getContainers.textContainer.appendChild(text);
+    text.classList.add('main-text');
+    text.textContent = 'This is the best restaurant in town. All the best food at the lowest price!'
+
+    return {
+        text
+    }
 })();
 
 export { 
