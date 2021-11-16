@@ -21,35 +21,135 @@ body {
 
 .header {
     font-family: sans-serif;
-    color: #fff;
+    color: #fff1e1;
     font-size: 60px;
     font-weight: 700;
     padding-left: 80px;
+}
+
+.text-container {
+    background-color:#fff1e1;
+    padding-bottom: 80px;
 }
 
 .main-text {
     font-family: sans-serif;
     font-size: 24px;
     text-align: center;
-    font-weight: bold;
-    padding-left: 400px;
-    padding-right: 400px;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #1d3c45
 }
 
 .tabs-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    background-color:#fff1e1;
 }
 
 button {
-    background-color: #fff;
+    background-color: #fff1e1;
+    padding-left: 100px;
+    padding-right: 100px;
     border: none;
     height: 50px;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
+    color: #1d3c45;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3c45;
+    color: #fff1e1;
+}
+
+.content-container {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #d2601a;
+    padding-bottom: 40px;
+}
+
+.site-header {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #d2601a;
+    padding-top: 20px;
+}
+
+.hours-header {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #1d3c45;
+}
+
+.location-header {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #1d3c45;
+    text-align: start;
+}
+
+.details-container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.location-container,
+    .hours-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 5px #1d3c45;
+    width: 320px;
+    height: 250px;
+}
+
+li {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #1d3c45;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.location-details {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #1d3c45;
+    padding-left: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1d3c45;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: #fff1e1;
+}
+
+.home-page {
+    display: flex;
 }

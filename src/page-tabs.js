@@ -29,5 +29,5 @@ const getTabs = (() => {
 })();
 
 export {
-    getTabs,
+    getTabs
 }
