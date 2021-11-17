@@ -13,18 +13,14 @@ const getTabs = (() => {
     _tabsContainer.appendChild(tab1);
     const tab2 = document.createElement('button');
     _tabsContainer.appendChild(tab2);
-    const tab3 = document.createElement('button');
-    _tabsContainer.appendChild(tab3);
 
-    tab1.textContent = 'Home';
+    tab1.textContent = 'About';
     tab2.textContent = 'Menu';
-    tab3.textContent = 'Contact';
 
     return {
         content,
         tab1,
-        tab2,
-        tab3
+        tab2
     }    
 })();
 

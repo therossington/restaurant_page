@@ -1,10 +1,10 @@
 const getFooter = (() => {
-    const content = document.querySelector('#content');
+    const page = document.querySelector('body');
     const siteFooter = document.createElement('div');
     const _footerContent = document.createElement('div');
 
     siteFooter.classList.add('site-footer');
-    content.appendChild(siteFooter);
+    page.appendChild(siteFooter);
 
     siteFooter.appendChild(_footerContent);
     _footerContent.classList.add('footer-content');
